@@ -1,0 +1,17 @@
+
+""" This is how chat history stored
+[{"role":"user","content":"user's q1"},
+{"role":"assistant","content":"llm response 1"},
+{"role":"user","content":"user's q2"},
+{"role":"assistant","content":"llm response 2"},
+]
+"""
+
+""" THIS CONTENT WILL GO TO LLM LIKE THIS
+messages = [ {"role": "system", "content": "You are a helpful assistant"},
+{"role":"user","content":"user's q1"},
+{"role":"assistant","content":"llm response 1"},
+{"role":"user","content":"user's q2"},
+{"role":"assistant","content":"llm response 2"},
+]
+"""
